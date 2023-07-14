@@ -22,3 +22,11 @@ Design a highly available and scalable containerised application on Amazon EKS. 
 
 ## website access url:
 a521a751a38c349c4ba7a126a217cd6d-92791127.ap-south-1.elb.amazonaws.com
+
+
+## command for cluster creation:
+
+eksctl create cluster -f cluster.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl apply -f autoscale.yaml
