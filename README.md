@@ -26,7 +26,7 @@ a521a751a38c349c4ba7a126a217cd6d-92791127.ap-south-1.elb.amazonaws.com
 
 ## command for cluster creation:
 
-eksctl create cluster -f cluster.yaml
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl apply -f autoscale.yaml
+1. eksctl create cluster -f cluster.yaml
+2. kubectl apply -f deployment.yaml
+3. kubectl apply -f service.yaml
+4. kubectl apply -f autoscale.yaml
